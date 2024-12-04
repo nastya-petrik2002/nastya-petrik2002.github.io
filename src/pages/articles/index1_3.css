@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+    background-color: rgba(138, 205, 255, 0.25);
+}
+.judicial_activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+
+
+h1 {
+    width: 65%;
+    font-weight: 100;
+    text-indent: 5%;
+    text-align: justify;
+}
+h2, h3, h4 {
+    font-weight: 100;
+    text-align: justify;
+}
+
+table {
+    display: flex;
+    justify-content: flex-start;
+    border: thick double #32a1ce;
+}
+td {
+    border: 1px solid #32a1ce;
+}

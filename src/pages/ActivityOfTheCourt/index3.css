@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content_hed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #4682B4;
+    color: #fff;
+}
+
+.blocks_with_points {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+}
+
+.span_blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 2px;
+    padding: 2px;
+}
+
+
+
+.judicial_activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(138, 205, 255, 0.25);
+}
+.activity_boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.active_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.activity_boxes a {
+    text-decoration: none;
+}
+.activity_boxes a :hover {
+    background-color: rgba(9, 76, 124, 0.8);
+    color: #fff;
+}
+.active_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px 10px;
+    background-color: rgba(9, 76, 124, 0.4);
+    color: #000;
+    font-size: 20px;
+}

@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+    background-color: rgba(138, 205, 255, 0.25);
+}
+.judicial_activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+h1, h4 {
+    width: 65%;
+    font-weight: 100;
+    text-indent: 5%;
+    text-align: justify;
+}
+h2, h3 {
+    font-weight: 100;
+}
+hr:not([size]) {
+    height: 1px;
+    color: black;
+}
+a {
+    color: rgb(0, 39, 78);
+    text-decoration: none;
+}
+
+
+.img {
+    width: 20%;
+    height: auto;
+    margin: 1px 0;
+}
+.img2 {
+    width: auto;
+    max-height: 200px;
+    height: auto;
+    margin: 1px 0;
+}
+.img3 {
+    width: 80%;
+    height: auto;
+    margin: 1px 0;
+}
+.img4 {
+    width: 70%;
+    height: auto;
+    margin: 1px 0;
+}
+

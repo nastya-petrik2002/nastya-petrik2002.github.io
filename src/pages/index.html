@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Озвучення тексту</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            text-align: center; /* Вирівнювання тексту в контейнері по центру */
+        }
+        p {
+            text-align: center; /* Вирівнювання тексту в абзаці по центру */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2 class="speak">Це заголовок</h2>
+    <p class="speak">Це приклад тексту, який вирівняний по центру.</p>
+    <p class="speak">Наведіть курсор на цей текст, щоб почути його озвучення.</p>
+</div>
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const elements = document.querySelectorAll('.speak');
+            let voices = [];
+
+            function populateVoiceList() {
+                voices = speechSynthesis.getVoices();
+                console.log(voices); // Додано для перегляду доступних голосів у консолі
+            }
+
+            populateVoiceList();
+            if (speechSynthesis.onvoiceschanged !== undefined) {
+                speechSynthesis.onvoiceschanged = populateVoiceList;
+            }
+
+            elements.forEach(element => {
+                element.addEventListener('mouseover', () => {
+                    speakText(element.textContent);
+                });
+            });
+
+            function speakText(text) {
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'uk-UA'; // Встановлюємо українську мову
+
+                // Знаходимо голос, схожий на "Алісу", якщо він доступний
+                const aliceVoice = voices.find(voice => voice.lang === 'uk-UA' && voice.name.includes('Alyssa'));
+                if (aliceVoice) {
+                    utterance.voice = aliceVoice;
+                } else {
+                    console.warn('Голос, схожий на "Алісу", не знайдено. Використовується за замовчуванням.');
+                }
+
+                speechSynthesis.speak(utterance);
+            }
+        });
+    </script>
+</body>
+</html>

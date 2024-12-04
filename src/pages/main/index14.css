@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    width: 100%;
+    //background: rgba(16, 35, 121, 0.15);
+    padding: 5px 20px;
+    box-sizing: border-box;
+    margin: 0;
+
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:  0 250px;
+    padding: 0 65px;
+    min-height: 700px;*/
+}
+
+
+
+.content_hed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content_one_h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;// 3px;
+    min-height: 600px;
+    width: 100%;
+}
+.container_one {
+    width: 100%;/*955px;*/
+    margin: 2px 0;
+}
+.itc-slider__wrapper {
+    width: 100%;/*955px;*/
+}
+.itc-slider__item {
+    height: 750px;/*550px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+.itc-slider__item img {
+    height: 750px;/*550px;*/
+    width: 100%;/*auto;/*955px;*/
+    padding: 0;
+    margin: 4px 0 0 0;
+}
+
+
+
+
+
+
+.all_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 150px;
+    margin-top: -100px;
+    font-size: 20px;
+    position: relative;
+    z-index: 100;
+}
+.small_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 16.5%;
+    height: 100%;
+    background-color: rgba(9, 76, 124, 0.8);
+    color: white;
+}
+.one_box_of_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.one_box_of_table img {
+    height: 50px;
+    width: auto;
+    margin: 20px 0 0 0;
+}
+
+
+
+
+
+
+.last_news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.news-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.news-item {
+    width: 30%;
+    min-width: 100px;
+    height: 245px;
+}
+.news_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    //width: 30%;
+}
+.div_button {
+    display: flex;
+    justify-content: flex-start;
+}
+.div_button a {
+    text-decoration: none;
+}
+.div_button a :hover {
+    background-color: rgba(9, 76, 124);
+}
+.button_more_news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(9, 76, 124, 0.8);
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+
+
+.judicial_activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.activity_boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.active_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.activity_boxes a {
+    text-decoration: none;
+}
+.activity_boxes a :hover {
+    background-color: rgba(9, 76, 124, 0.8);
+    color: #fff;
+}
+.active_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px 10px;
+    background-color: rgba(9, 76, 124, 0.4);
+    color: #000;
+    font-size: 20px;
+}
+
+
+
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.all_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.all_links a {
+    text-decoration: none;
+    color: #000;
+}
+.all_links a :hover {
+    color: rgba(9, 76, 224);
+}
+.div_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    margin: 10px 5px;
+    background-color: rgba(222, 222, 222, 0.5);
+}
+.div_a img {
+    width: auto;
+    height: auto;
+    max-width: 60px;
+    max-height: 60px;
+    margin: 10px 0 15px 0;
+}
+.div_a p {
+    margin: 15px 0 10px 0;
+    text-align: center;
+}

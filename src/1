@@ -1,0 +1,142 @@
+
+                <li class="dropdown item-1">
+                    <a class="" href="#">Про суд</a>
+                    <ul>
+                        <li class="dropdown item-2">
+                            <a class="" href="/#">Історія</a>
+                            <ul>
+                                <li class=" item-148">
+                                    <a class="" href="/istoriya-stvorennya">Історія створення Хмельницького окружного адміністративного суду</a>
+                                </li>
+                            </ul>
+                            <div class="dropdown-btn">
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </li>
+                        <li class=" item-3">
+                            <a class="" href="/kerivnictvo">Керівництво суду</a>
+                        </li>
+                        <li class=" item-4">
+                            <a class="" href="/suddivs-kiy-korpus">Суддівський корпус</a>
+                            <ul>
+                                <li class=" item-43">
+                                    <a class="" href="/koval-chuk-olena-kostyantinivna">Ковальчук Олена Костянтинівна</a>
+                                </li>
+                                <li class=" item-45">
+                                    <a class="" href="/blons-kiy-vyacheslav-kostyantinovich">Блонський Вячеслав Костянтинович</a>
+                                </li>
+                                <li class=" item-46">
+                                    <a class="" href="/bozhuk-dar-ya-anatolijivna">Божук Дар’я Анатоліївна</a>
+                                </li>
+                                <li class=" item-47">
+                                    <a class="" href="/gnap-diana-dmitrivna">Гнап Діана Дмитрівна</a>
+                                </li>
+                                <li class=" item-49">
+                                    <a class="" href="/koval-chuk-al-bina-mikolajivna">Перепелиця Альбіна Миколаївна</a>
+                                </li>
+                                <li class=" item-50">
+                                    <a class="" href="/kozachok-irina-sergijivna">Козачок Ірина Сергіївна</a>
+                                </li>
+                                <li class=" item-52">
+                                    <a class="" href="/matuschak-vadim-viktorovich">Матущак Вадім Вікторович</a>
+                                </li>
+                                <li class=" item-53">
+                                    <a class="" href="/petrichkovich-andriy-ivanovich">Петричкович Андрій Іванович</a>
+                                </li>
+                                <li class=" item-54">
+                                    <a class="" href="/pol-oviy-oleksandr-leonidovich">Польовий Олександр Леонідович</a>
+                                </li>
+                                <li class=" item-55">
+                                    <a class="" href="/mihaylov-oleksandr-oleksandrovich">Михайлов Олександр Олександрович</a>
+                                </li>
+                                <li class=" item-56">
+                                    <a class="" href="/salyuk-petro-ivanovich">Салюк Петро Іванович</a>
+                                </li>
+                                <li class=" item-57">
+                                    <a class="" href="/tarnovec-kiy-ivan-igorovich">Тарновецький Іван Ігорович</a>
+                                </li>
+                                <li class=" item-58">
+                                    <a class="" href="/shevchuk-oleksandr-petrovich">Шевчук Олександр Петрович</a>
+                                </li>
+                                <li class=" item-59">
+                                    <a class="" href="/felonyuk-diana-leonidivna">Фелонюк Діана Леонідівна</a>
+                                </li>
+                                <li class=" item-943">
+                                    <a class="" href="/dranovs-kiy-yaroslav-vasil-ovich">Драновський Ярослав Васильович</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown item-5">
+                            <a class="" href="/suddivs-ke-samovryaduvannya">Суддівське самоврядування</a>
+                            <ul>
+                                <li class=" item-168">
+                                    <a class="" href="/pro-suddivs-ke-samovryaduvannya">Про суддівське самоврядування</a>
+                                </li>
+                                <li class=" item-63">
+                                    <a class="" href="/ogoloshennya">Повідомлення про проведення  зборів суддів</a>
+                                </li>
+                                <li class=" item-104">
+                                    <a class="" href="/rishennya-zboriv-suddiv">Рішення зборів суддів</a>
+                                </li>
+                            </ul>
+                            <div class="dropdown-btn">
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </li>
+                        <li class=" item-6">
+                            <a class="" href="/aparat-sudu">Апарат суду</a>
+                            <ul>
+                                <li class=" item-157">
+                                    <a class="" href="/kerivnik-aparatu-sudu">Керівник апарату суду</a>
+                                </li>
+                                <li class=" item-158">
+                                    <a class="" href="/zastupnik-kerivnika-aparatu">Заступник керівника апарату</a>
+                                </li>
+                                <li class=" item-160">
+                                    <a class="" href="/viddil-zabezpechennya-rozglyadu-administrativnih-sprav">Відділ забезпечення розгляду адміністративних справ</a>
+                                </li>
+                                <li class=" item-161">
+                                    <a class="" href="/viddil-dokumental-nogo-zabezpechennya">Відділ документального забезпечення</a>
+                                </li>
+                                <li class=" item-141">
+                                    <a class="" href="/viddil-derzhavnoji-sluzhbi-ta-upravlinnya-personalom">Відділ державної служби та управління персоналом  </a>
+                                </li>
+                                <li class=" item-143">
+                                    <a class="" href="/viddil-planovo-finansovoji-diyal-nosti-buhgalters-kogo-obliku-ta-zvitnosti">Відділ планово-фінансової діяльності, бухгалтерського обліку та звітності</a>
+                                </li>
+                                <li class=" item-144">
+                                    <a class="" href="/viddil-organizaciynogo-zabezpechennya">Відділ організаційного забезпечення, статистичної роботи та узагальнення судової практики</a>
+                                </li>
+                                <li class=" item-145">
+                                    <a class="" href="/sektor-material-no-tehnichnogo-zabezpechennya-ta-pravovoji-roboti">Сектор матеріально-технічного забезпечення та правової роботи</a>
+                                </li>
+                                <li class=" item-414">
+                                    <a class="" href="/viddil-analitichnogo-ta-informaciynogo-zabezpechennya">Відділ аналітичного та інформаційного забезпечення</a>
+                                </li>
+                                <li class=" item-942">
+                                    <a class="" href="/sektor-sluzhbi-sudovih-rozporyadnikiv">Сектор служби судових розпорядників</a>
+                                </li>
+                                <li class=" item-2020">
+                                    <a class="" href="/sektor-obliku-vidachi-vikonavchih-dokumentiv">Сектор обліку видачі виконавчих документів</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown item-7">
+                            <a class="" href="/normativno-pravovi-zasadi-diyal-nosti-sudu">Нормативно-правові засади діяльності суду</a>
+                            <ul>
+                                <li class=" item-162">
+                                    <a class="" href="/zakonodavstvo-scho-viznachae-diyal-nist-sudu">Законодавство, що визначає діяльність суду</a>
+                                </li>
+                                <li class=" item-147">
+                                    <a class="" href="/lokal-ni-normativno-pravovi-akti">Локальні нормативно-правові акти</a>
+                                </li>
+                            </ul>
+                            <div class="dropdown-btn">
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="dropdown-btn">
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                </li>
